@@ -1,0 +1,24 @@
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Training output and logs
+logs/
+runs/
+*.log
+*.bak
